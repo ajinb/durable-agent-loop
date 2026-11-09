@@ -1,0 +1,39 @@
+{
+  "baseline_tokens": 37000,
+  "crash_points": 30,
+  "modes": {
+    "naive": {
+      "crashes_causing_duplicate_side_effects": 20,
+      "max_duplicate_side_effects": 3,
+      "mean_extra_tokens": 17967,
+      "max_extra_tokens": 37000,
+      "max_extra_tokens_pct": 100.0
+    },
+    "checkpoint": {
+      "crashes_causing_duplicate_side_effects": 6,
+      "max_duplicate_side_effects": 1,
+      "mean_extra_tokens": 6167,
+      "max_extra_tokens": 10400,
+      "max_extra_tokens_pct": 28.1
+    },
+    "journal": {
+      "crashes_causing_duplicate_side_effects": 3,
+      "max_duplicate_side_effects": 1,
+      "mean_extra_tokens": 1233,
+      "max_extra_tokens": 10400,
+      "max_extra_tokens_pct": 28.1
+    },
+    "journal+keys": {
+      "crashes_causing_duplicate_side_effects": 0,
+      "max_duplicate_side_effects": 0,
+      "mean_extra_tokens": 1233,
+      "max_extra_tokens": 10400,
+      "max_extra_tokens_pct": 28.1
+    }
+  },
+  "journal_write_cost": {
+    "writes": 2000,
+    "p50_ms": 3.02,
+    "p99_ms": 4.78
+  }
+}

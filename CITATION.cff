@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "durable-agent-loop"
+abstract: "A durable agent loop in one SQLite-backed file, tested by SIGKILLing it at every step boundary. Shows what checkpoints, journals and idempotency keys each actually buy you."
+authors:
+  - family-names: Baby
+    given-names: Ajin
+    orcid: "https://orcid.org/0009-0007-6190-9516"
+repository-code: "https://github.com/ajinb/durable-agent-loop"
+url: "https://cloudandsre.com"
+license: Apache-2.0
+version: 0.1.0
+date-released: 2026-11-08
